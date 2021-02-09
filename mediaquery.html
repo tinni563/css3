@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row ;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid slateblue;
+            margin: 10px;
+            border-radius: 30px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: rgb(8, 108, 148);
+            }
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: lightcoral;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, adipisci? Voluptas, numquam sunt nemo praesentium expedita quas placeat dolorum odio!</p>
+   </div>
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Deserunt blanditiis autem voluptate sit ad officia illo, dignissimos nesciunt cupiditate veniam, saepe rerum sint ducimus est inventore perferendis! Fugit.</p>
+   </div>
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Ratione tenetur eos atque explicabo dolore unde, perferendis libero minus similique. Dolores, quam maxime. Sint perspiciatis ullam similique minima consequuntur.</p>
+   </div>
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Consectetur, possimus non! Nemo modi mollitia eveniet officia aliquid possimus et, nostrum facilis hic. Magni dolore recusandae laudantium officiis magnam.</p>
+   </div>
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Ut molestiae consequuntur, possimus doloremque distinctio nam veritatis dolorem, porro voluptates pariatur, aspernatur quia labore voluptatum dolores exercitationem. Eius, molestias.</p>
+   </div>
+   <div class="food">
+       <img src="C:\images.l\food.jpg" alt="">
+       <p>Harum vitae reprehenderit eum nostrum cumque eligendi. Debitis architecto, tenetur, praesentium atque iure officia ea laboriosam repudiandae eos voluptatem adipisci?</p>
+   </div>
+    </div>
+</body>
+</html>
